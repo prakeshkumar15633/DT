@@ -1,0 +1,54 @@
+.position{
+    position:relative;
+}
+.one{
+    position:absolute;
+    opacity:0;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    transition:opacity 1s;
+}
+.one.first1{
+    opacity:1;
+    z-index:1;
+}
+.two{
+    position:absolute;
+    z-index:1;
+    margin-left:17vw;
+    margin-top:20vh;
+    transition:margin-left 1s,margin-top 1s;
+}
+.two.second2{
+    margin-left:0;
+    margin-top:0;
+}
+.image1{
+    margin:auto;
+    width:40vh;
+    transition:width 1s;
+}
+.image1.i12{
+    width:5vh;
+    margin:1vh;
+    margin-right:0;
+}
+.image2{
+    top:60vh;
+    height:15vh;
+    transition:height 1s;
+}
+.image2.i22{
+    height:5vh;
+}
+.test{
+    background-color: black;
+    opacity:1;
+    transition:opacity 1s;
+}
+.test.test2{
+    opacity:0;
+}
